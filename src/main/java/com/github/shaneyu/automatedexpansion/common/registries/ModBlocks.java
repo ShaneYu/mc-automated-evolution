@@ -21,7 +21,7 @@ public class ModBlocks {
         BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3f, 3f));
 
     private static BlockRegistryObject<BlockResource, ItemBlockBase> registerResourceBlock(String name, BlockBehaviour.Properties blockProperties) {
-        return BLOCKS.registerDefaultProperties("block_" + name, () -> new BlockResource(blockProperties), (block, properties) -> new ItemBlockBase(block, properties));
+        return BLOCKS.registerDefaultProperties("block_" + name, () -> new BlockResource(name, blockProperties), (block, properties) -> new ItemBlockBase(block, properties));
     }
 
     private static <BLOCK extends Block & IHasDescription> BlockRegistryObject<BLOCK, ItemBlockTooltip<BLOCK>> registerBlock(

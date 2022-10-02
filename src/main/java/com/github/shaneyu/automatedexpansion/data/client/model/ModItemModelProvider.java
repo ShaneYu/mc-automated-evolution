@@ -17,6 +17,6 @@ public class ModItemModelProvider  extends BaseItemModelProvider {
         generated(ModItems.DUST_DIAMOND);
         generated(ModItems.DUST_STEEL);
 
-        generated(ModItems.INGOT_STEEL);
+        generated(ModItems.STEEL_INGOT);
     }
 }

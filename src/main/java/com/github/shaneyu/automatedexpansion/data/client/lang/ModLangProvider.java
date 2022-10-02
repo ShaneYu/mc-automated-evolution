@@ -30,12 +30,12 @@ public class ModLangProvider extends BaseLangProvider {
         add(ModItems.DUST_DIAMOND, "Diamond Dust");
 
         // Ingots
-        add(ModItems.INGOT_STEEL, "Steel Ingot");
+        add(ModItems.STEEL_INGOT, "Steel Ingot");
     }
 
     private void addBlocks() {
         // Storage blocks
-        add(ModBlocks.STEEL_BLOCK, "Steel Block");
+        add(ModBlocks.STEEL_BLOCK, "Block of Steel");
     }
 
     private void addMisc() {

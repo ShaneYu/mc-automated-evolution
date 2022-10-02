@@ -29,7 +29,7 @@ public class ModDataGenerators {
         generator.addProvider(event.includeClient(), new ModBlockStateProvider(generator, itemModelProvider.existingFileHelper));
 
         // Server size
-        generator.addProvider(event.includeServer(), new ModRecipeProvider(generator));
+        generator.addProvider(event.includeServer(), new ModRecipeProvider(generator, existingFileHelper));
         generator.addProvider(event.includeServer(), new ModLootTableProvider(generator));
         generator.addProvider(event.includeServer(), new ModTagsProvider(generator, existingFileHelper));
     }

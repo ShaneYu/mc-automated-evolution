@@ -54,7 +54,7 @@ public class ModTagsProvider extends BaseTagProvider {
     }
 
     private void addIngots() {
-        addToTag(ModTags.Items.INGOTS_STEEL, ModItems.INGOT_STEEL.get());
+        addToTag(ModTags.Items.INGOTS_STEEL, ModItems.STEEL_INGOT.get());
 
         getItemBuilder(Tags.Items.INGOTS).add(
             ModTags.Items.INGOTS_STEEL

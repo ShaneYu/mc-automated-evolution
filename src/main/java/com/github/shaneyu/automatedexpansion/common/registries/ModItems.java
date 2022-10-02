@@ -15,7 +15,7 @@ public class ModItems {
     public static final ItemRegistryObject<Item> DUST_DIAMOND = registerDust("diamond");
     public static final ItemRegistryObject<Item> DUST_STEEL = registerDust("steel");
 
-    public static final ItemRegistryObject<Item> INGOT_STEEL = registerIngot("steel");
+    public static final ItemRegistryObject<Item> STEEL_INGOT = registerIngot("steel");
 
     private static ItemRegistryObject<Item> registerDust(String name) {
         return ITEMS.register("dust_" + name);

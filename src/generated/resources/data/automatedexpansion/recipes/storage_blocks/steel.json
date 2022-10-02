@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "automatedexpansion:ingot_steel"
+      "tag": "forge:ingots/steel"
     }
   },
   "pattern": [
