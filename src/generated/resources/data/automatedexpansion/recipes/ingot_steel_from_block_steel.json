@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "automatedexpansion:block_steel"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "automatedexpansion:ingot_steel"
+  }
+}

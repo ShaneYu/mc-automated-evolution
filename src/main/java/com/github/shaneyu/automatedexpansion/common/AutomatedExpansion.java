@@ -1,7 +1,11 @@
 package com.github.shaneyu.automatedexpansion.common;
 
+import com.github.shaneyu.automatedexpansion.common.registries.ModBlocks;
+import com.github.shaneyu.automatedexpansion.common.registries.ModItems;
+import com.github.shaneyu.automatedexpansion.common.registries.ModTileEntityTypes;
 import com.github.shaneyu.automatedexpansion.common.util.Version;
 import com.mojang.logging.LogUtils;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -25,6 +29,10 @@ public class AutomatedExpansion {
 
         modEventBus.addListener(this::commonSetup);
 
+        ModItems.ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
+        ModTileEntityTypes.TILE_ENTITY_TYPES.register(modEventBus);
+
         MinecraftForge.EVENT_BUS.register(this);
 
         versionNumber = new Version(ModLoadingContext.get().getActiveContainer());
@@ -33,7 +41,10 @@ public class AutomatedExpansion {
     private void commonSetup(final FMLCommonSetupEvent event) {
         LOGGER.info("Version {} initializing...", versionNumber);
 
-        // Add common setup here, like enqueue work to init mod tags
+         event.enqueueWork(() -> {
+             // ModNetwork.register();
+             ModTags.init();
+         });
 
         LOGGER.info("Mod loaded.");
     }
@@ -43,5 +54,9 @@ public class AutomatedExpansion {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
         }
+    }
+
+    public static ResourceLocation rl(String path) {
+        return new ResourceLocation(MODID, path);
     }
 }

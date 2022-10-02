@@ -1,0 +1,15 @@
+// 1.19.2	2022-10-02T01:29:56.6688062	Tags: automatedexpansion
+dee9c198cfa241a268ec5bddc754bf82c18858c1 data/forge/tags/blocks/storage_blocks.json
+b8891646dde23e9792786c81d8dafe8f13ad35d0 data/forge/tags/blocks/storage_blocks/steel.json
+85aa1f4c349b70b5b598c279d915fa32e75b27c5 data/forge/tags/items/dusts.json
+9d9ce4dae154f405cd180ed9d01c68b87e71877f data/forge/tags/items/dusts/copper.json
+71ed1f520426e9230ba47b224405a0e57ffbd30f data/forge/tags/items/dusts/diamond.json
+a31987172b3cb79ca1c486dfd094ca5fecc48e00 data/forge/tags/items/dusts/gold.json
+f54fe2811e5c2404bedc20480366b4e8ee59f795 data/forge/tags/items/dusts/iron.json
+b88aad4e8523d1d4ba35da33d2d7633f4ff13bbe data/forge/tags/items/dusts/steel.json
+560ea8b4b7d6d81db4964f926d59885d71dfff52 data/forge/tags/items/ingots.json
+248dbeca893f031c55c4538d4528a3f280cc691a data/forge/tags/items/ingots/steel.json
+dee9c198cfa241a268ec5bddc754bf82c18858c1 data/forge/tags/items/storage_blocks.json
+b8891646dde23e9792786c81d8dafe8f13ad35d0 data/forge/tags/items/storage_blocks/steel.json
+b8891646dde23e9792786c81d8dafe8f13ad35d0 data/minecraft/tags/blocks/mineable/pickaxe.json
+b8891646dde23e9792786c81d8dafe8f13ad35d0 data/minecraft/tags/blocks/needs_iron_tool.json
