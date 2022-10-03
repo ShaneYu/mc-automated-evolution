@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#forge:sheets/copper",
+    "#forge:sheets/iron",
+    "#forge:sheets/gold",
+    "#forge:sheets/steel"
+  ]
+}

@@ -1,4 +1,8 @@
-// 1.19.2	2022-10-02T01:29:56.6688062	Tags: automatedexpansion
+// 1.19.2	2022-10-03T20:37:08.7086804	Tags: automatedexpansion
+0201ef554b901221c3d25a719fc8f541732ceed4 data/automatedexpansion/tags/items/cables.json
+6bbeb917880c108e6b6748482b620ebd538b4fe1 data/automatedexpansion/tags/items/cables/copper.json
+fd1d3c76634220126b50728631d918008c9a1e24 data/automatedexpansion/tags/items/cables_insulated.json
+31027fcda027444e5b788e987ab329dc544f3b29 data/automatedexpansion/tags/items/cables_insulated/copper.json
 dee9c198cfa241a268ec5bddc754bf82c18858c1 data/forge/tags/blocks/storage_blocks.json
 b8891646dde23e9792786c81d8dafe8f13ad35d0 data/forge/tags/blocks/storage_blocks/steel.json
 85aa1f4c349b70b5b598c279d915fa32e75b27c5 data/forge/tags/items/dusts.json
@@ -9,7 +13,16 @@ f54fe2811e5c2404bedc20480366b4e8ee59f795 data/forge/tags/items/dusts/iron.json
 b88aad4e8523d1d4ba35da33d2d7633f4ff13bbe data/forge/tags/items/dusts/steel.json
 560ea8b4b7d6d81db4964f926d59885d71dfff52 data/forge/tags/items/ingots.json
 248dbeca893f031c55c4538d4528a3f280cc691a data/forge/tags/items/ingots/steel.json
+b1574d3ebb8baccb9f18b1ccd7b0cd8b5e7382ee data/forge/tags/items/sheets.json
+8dd76403af6b33e547e84949087e25dc6a1c23f2 data/forge/tags/items/sheets/copper.json
+b9d32e70f8b4c4f48f9b4c0eb76b26d99ca020cf data/forge/tags/items/sheets/gold.json
+a9e57fdf737056520bdb130e89cafdb6f1b4b118 data/forge/tags/items/sheets/iron.json
+587b17acac0112b03a6ab2c2dd9f473f1da31fad data/forge/tags/items/sheets/steel.json
 dee9c198cfa241a268ec5bddc754bf82c18858c1 data/forge/tags/items/storage_blocks.json
 b8891646dde23e9792786c81d8dafe8f13ad35d0 data/forge/tags/items/storage_blocks/steel.json
+7fb7e26c884ec76347f3788b0212b69e1afe875e data/forge/tags/items/tools.json
+be9d98fb25edf97ee0b9b0bce3989b48bf6906f2 data/forge/tags/items/tools/hammer.json
+b85dc51ba03ccbc57070f3b8c479ba7c2f206017 data/forge/tags/items/tools/wirecutter.json
+2acc6b4863d34ff13342ae21bb5dd95e38d21e39 data/forge/tags/items/tools/wrench.json
 b8891646dde23e9792786c81d8dafe8f13ad35d0 data/minecraft/tags/blocks/mineable/pickaxe.json
 b8891646dde23e9792786c81d8dafe8f13ad35d0 data/minecraft/tags/blocks/needs_iron_tool.json

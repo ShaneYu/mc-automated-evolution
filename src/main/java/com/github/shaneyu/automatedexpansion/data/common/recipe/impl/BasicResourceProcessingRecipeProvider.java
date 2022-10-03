@@ -28,7 +28,7 @@ public class BasicResourceProcessingRecipeProvider implements ISubRecipeProvider
     }
 
     private void addSteelProcessingRecipes(Consumer<FinishedRecipe> consumer, String basePath) {
-        addBasicProcessingRecipes(consumer, basePath, ModTags.Items.DUSTS_STEEL, ModItems.STEEL_INGOT, 0.4F, 200);
+        addBasicProcessingRecipes(consumer, basePath, ModTags.Items.DUSTS_STEEL, ModItems.INGOT_STEEL, 0.4F, 200);
 
         // TODO: We don't want steel to just be a simple resource, we want to combine iron and coal to make it; add those recipes here later when we have them.
     }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "pattern": [
+    " I ",
+    " LI",
+    "L  "
+  ],
+  "result": {
+    "item": "automatedexpansion:tool_hammer"
+  }
+}

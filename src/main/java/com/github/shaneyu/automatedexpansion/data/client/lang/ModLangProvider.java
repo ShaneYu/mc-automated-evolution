@@ -30,7 +30,22 @@ public class ModLangProvider extends BaseLangProvider {
         add(ModItems.DUST_DIAMOND, "Diamond Dust");
 
         // Ingots
-        add(ModItems.STEEL_INGOT, "Steel Ingot");
+        add(ModItems.INGOT_STEEL, "Steel Ingot");
+
+        // Sheets
+        add(ModItems.SHEET_COPPER, "Copper Sheet");
+        add(ModItems.SHEET_IRON, "Iron Sheet");
+        add(ModItems.SHEET_GOLD, "Gold Sheet");
+        add(ModItems.SHEET_STEEL, "Steel Sheet");
+
+        // Cables
+        add(ModItems.CABLE_COPPER, "Copper Cable");
+        add(ModItems.CABLE_INSULATED_COPPER, "Insulated Copper Cable");
+
+        // Tools
+        add(ModItems.TOOL_HAMMER, "Hammer");
+        add(ModItems.TOOL_WRENCH, "Wrench");
+        add(ModItems.TOOL_WIRE_CUTTER, "Wire Cutter");
     }
 
     private void addBlocks() {

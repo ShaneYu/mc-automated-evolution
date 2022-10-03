@@ -23,12 +23,33 @@ public class ModTags {
         public static final TagKey<Item> DUSTS_COPPER = forgeTag("dusts/copper");
         public static final TagKey<Item> DUSTS_IRON = forgeTag("dusts/iron");
         public static final TagKey<Item> DUSTS_GOLD = forgeTag("dusts/gold");
-        public static final TagKey<Item> DUSTS_DIAMOND = forgeTag("dusts/diamond");
         public static final TagKey<Item> DUSTS_STEEL = forgeTag("dusts/steel");
+        public static final TagKey<Item> DUSTS_DIAMOND = forgeTag("dusts/diamond");
+
 
         public static final TagKey<Item> INGOTS_STEEL = forgeTag("ingots/steel");
 
+
+        public static final TagKey<Item> SHEETS = forgeTag("sheets");
+        public static final TagKey<Item> SHEETS_COPPER = forgeTag("sheets/copper");
+        public static final TagKey<Item> SHEETS_IRON = forgeTag("sheets/iron");
+        public static final TagKey<Item> SHEETS_GOLD = forgeTag("sheets/gold");
+        public static final TagKey<Item> SHEETS_STEEL = forgeTag("sheets/steel");
+
+
+        public static final TagKey<Item> CABLES = tag("cables");
+        public static final TagKey<Item> CABLES_COPPER = tag("cables/copper");
+
+        public static final TagKey<Item> CABLES_INSULATED = tag("cables_insulated");
+        public static final TagKey<Item> CABLES_INSULATED_COPPER = tag("cables_insulated/copper");
+
+
         public static final TagKey<Item> STORAGE_BLOCKS_STEEL = forgeTag("storage_blocks/steel");
+
+
+        public static final TagKey<Item> TOOLS_WRENCH = forgeTag("tools/wrench");
+        public static final TagKey<Item> TOOLS_HAMMER = forgeTag("tools/hammer");
+        public static final TagKey<Item> TOOLS_WIRE_CUTTER = forgeTag("tools/wirecutter");
 
         private static TagKey<Item> forgeTag(String name) {
             return ItemTags.create(new ResourceLocation("forge", name));

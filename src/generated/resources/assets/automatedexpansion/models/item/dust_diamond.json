@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "automatedexpansion:item/dust_diamond"
+    "layer0": "automatedexpansion:item/dust/dust_diamond"
   }
 }

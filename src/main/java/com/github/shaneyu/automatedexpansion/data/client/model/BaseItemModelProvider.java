@@ -29,6 +29,10 @@ public abstract class BaseItemModelProvider extends ItemModelProvider {
         return modLoc("item/" + itemProvider.getName());
     }
 
+    protected ResourceLocation itemTexture(IItemProvider itemProvider, String type) {
+        return modLoc("item/" + type + "/" + itemProvider.getName());
+    }
+
     protected void registerGenerated(IItemProvider... itemProviders) {
         for (IItemProvider itemProvider : itemProviders) {
             generated(itemProvider);
@@ -37,6 +41,10 @@ public abstract class BaseItemModelProvider extends ItemModelProvider {
 
     protected ItemModelBuilder generated(IItemProvider itemProvider) {
         return generated(itemProvider, itemTexture(itemProvider));
+    }
+
+    protected ItemModelBuilder generated(IItemProvider itemProvider, String type) {
+        return generated(itemProvider, itemTexture(itemProvider, type));
     }
 
     protected ItemModelBuilder generated(IItemProvider itemProvider, ResourceLocation texture) {

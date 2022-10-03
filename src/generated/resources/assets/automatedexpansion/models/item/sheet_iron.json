@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "automatedexpansion:item/ingot/ingot_steel"
+    "layer0": "automatedexpansion:item/sheet/sheet_iron"
   }
 }

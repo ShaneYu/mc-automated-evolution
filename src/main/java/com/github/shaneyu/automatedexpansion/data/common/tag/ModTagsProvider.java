@@ -32,10 +32,14 @@ public class ModTagsProvider extends BaseTagProvider {
         addStorageBlocks();
         addIngots();
         addDusts();
+        addSheets();
+        addCables();
+        addCablesInsulated();
         addGems();
         addCrops();
         addSeeds();
         addHarvestRequirements();
+        addTools();
     }
 
     private void addOres() {
@@ -54,7 +58,7 @@ public class ModTagsProvider extends BaseTagProvider {
     }
 
     private void addIngots() {
-        addToTag(ModTags.Items.INGOTS_STEEL, ModItems.STEEL_INGOT.get());
+        addToTag(ModTags.Items.INGOTS_STEEL, ModItems.INGOT_STEEL);
 
         getItemBuilder(Tags.Items.INGOTS).add(
             ModTags.Items.INGOTS_STEEL
@@ -62,11 +66,11 @@ public class ModTagsProvider extends BaseTagProvider {
     }
 
     private void addDusts() {
-        addToTag(ModTags.Items.DUSTS_COPPER, ModItems.DUST_COPPER.get());
-        addToTag(ModTags.Items.DUSTS_IRON, ModItems.DUST_IRON.get());
-        addToTag(ModTags.Items.DUSTS_GOLD, ModItems.DUST_GOLD.get());
-        addToTag(ModTags.Items.DUSTS_DIAMOND, ModItems.DUST_DIAMOND.get());
-        addToTag(ModTags.Items.DUSTS_STEEL, ModItems.DUST_STEEL.get());
+        addToTag(ModTags.Items.DUSTS_COPPER, ModItems.DUST_COPPER);
+        addToTag(ModTags.Items.DUSTS_IRON, ModItems.DUST_IRON);
+        addToTag(ModTags.Items.DUSTS_GOLD, ModItems.DUST_GOLD);
+        addToTag(ModTags.Items.DUSTS_DIAMOND, ModItems.DUST_DIAMOND);
+        addToTag(ModTags.Items.DUSTS_STEEL, ModItems.DUST_STEEL);
 
         getItemBuilder(Tags.Items.DUSTS).add(
             ModTags.Items.DUSTS_COPPER,
@@ -74,6 +78,36 @@ public class ModTagsProvider extends BaseTagProvider {
             ModTags.Items.DUSTS_GOLD,
             ModTags.Items.DUSTS_DIAMOND,
             ModTags.Items.DUSTS_STEEL
+        );
+    }
+
+    private void addSheets() {
+        addToTag(ModTags.Items.SHEETS_COPPER, ModItems.SHEET_COPPER);
+        addToTag(ModTags.Items.SHEETS_IRON, ModItems.SHEET_IRON);
+        addToTag(ModTags.Items.SHEETS_GOLD, ModItems.SHEET_GOLD);
+        addToTag(ModTags.Items.SHEETS_STEEL, ModItems.SHEET_STEEL);
+
+        getItemBuilder(ModTags.Items.SHEETS).add(
+            ModTags.Items.SHEETS_COPPER,
+            ModTags.Items.SHEETS_IRON,
+            ModTags.Items.SHEETS_GOLD,
+            ModTags.Items.SHEETS_STEEL
+        );
+    }
+
+    private void addCables() {
+        addToTag(ModTags.Items.CABLES_COPPER, ModItems.CABLE_COPPER);
+
+        getItemBuilder(ModTags.Items.CABLES).add(
+            ModTags.Items.CABLES_COPPER
+        );
+    }
+
+    private void addCablesInsulated() {
+        addToTag(ModTags.Items.CABLES_INSULATED_COPPER, ModItems.CABLE_INSULATED_COPPER);
+
+        getItemBuilder(ModTags.Items.CABLES_INSULATED).add(
+            ModTags.Items.CABLES_INSULATED_COPPER
         );
     }
 
@@ -90,6 +124,17 @@ public class ModTagsProvider extends BaseTagProvider {
         addHarvestWithIronPickaxe(
             ModBlocks.STEEL_BLOCK
         );
+    }
+
+    private void addTools() {
+        addToTag(ModTags.Items.TOOLS_HAMMER, ModItems.TOOL_HAMMER);
+        getItemBuilder(Tags.Items.TOOLS).add(ModTags.Items.TOOLS_HAMMER);
+
+        addToTag(ModTags.Items.TOOLS_WRENCH, ModItems.TOOL_WRENCH);
+        getItemBuilder(Tags.Items.TOOLS).add(ModTags.Items.TOOLS_WRENCH);
+
+        addToTag(ModTags.Items.TOOLS_WIRE_CUTTER, ModItems.TOOL_WIRE_CUTTER);
+        getItemBuilder(Tags.Items.TOOLS).add(ModTags.Items.TOOLS_WIRE_CUTTER);
     }
 
     private void addHarvestWithStonePickaxe(IBlockProvider... blocks) {
