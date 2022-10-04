@@ -1,4 +1,7 @@
-// 1.19.2	2022-10-03T20:52:35.3096559	Recipes: automatedexpansion
+// 1.19.2	2022-10-04T19:45:32.6548978	Recipes: automatedexpansion
+248a072d98d1a255c2ea1629b2e2e39c6eda7868 data/automatedexpansion/recipes/block_frame_iron.json
+2e37b95d130a370b89bc1a5b3d0bd4c7afa1d90c data/automatedexpansion/recipes/block_frame_steel.json
+f1d590482ab0e33c911a0524a02f4c739e1bf099 data/automatedexpansion/recipes/cable_copper.json
 211682ae88d85c54a35ee65dcb216e29ac8f457b data/automatedexpansion/recipes/processing/copper/ingot/from_dust_blasting.json
 019527821eba0ee128eed662554afd1446ecccb5 data/automatedexpansion/recipes/processing/copper/ingot/from_dust_smelting.json
 b0b61d349a5d15c70e7709821b9fb5a3482c7c63 data/automatedexpansion/recipes/processing/gold/ingot/from_dust_blasting.json
@@ -7,6 +10,10 @@ b0b61d349a5d15c70e7709821b9fb5a3482c7c63 data/automatedexpansion/recipes/process
 a002d85ba67525350df80056da549f2e3c3512df data/automatedexpansion/recipes/processing/iron/ingot/from_dust_smelting.json
 1691d2f7924cc537d73ac8527cde78dc89ae0842 data/automatedexpansion/recipes/processing/steel/ingot/from_dust_blasting.json
 c5f11988756ce421972ca24bb64f8563c48cbbfa data/automatedexpansion/recipes/processing/steel/ingot/from_dust_smelting.json
+021912bb516157a80d7d15a5f463d15c218dcd4e data/automatedexpansion/recipes/sheet_copper.json
+2fa2e6a4b6ec2dd2c628b8749e0a7a4cdfe234ba data/automatedexpansion/recipes/sheet_gold.json
+a593f7ca73996f683d9bbb2b37115328efe91ab8 data/automatedexpansion/recipes/sheet_iron.json
+ccf8b4d3d4210fd29cc0724c844c943c522e8beb data/automatedexpansion/recipes/sheet_steel.json
 b45ae9ba5f6af1b859b4055fb8843e7774bd844c data/automatedexpansion/recipes/storage_blocks/steel.json
 a74e2fc4f0a9ed364a066a3adb7d5b3192d7c891 data/automatedexpansion/recipes/tool_hammer.json
 06afa3f85c2387a951fec15cc0409d59965723e0 data/automatedexpansion/recipes/tool_wirecutter.json

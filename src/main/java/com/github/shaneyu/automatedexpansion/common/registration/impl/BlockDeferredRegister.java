@@ -7,6 +7,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
+import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
 import com.github.shaneyu.automatedexpansion.common.providers.IBlockProvider;
 import com.github.shaneyu.automatedexpansion.common.registration.DoubleDeferredRegister;
 import net.minecraft.world.item.BlockItem;
@@ -33,7 +34,7 @@ public class BlockDeferredRegister extends DoubleDeferredRegister<Block, Item> {
 
     public <BLOCK extends Block, ITEM extends BlockItem> BlockRegistryObject<BLOCK, ITEM> registerDefaultProperties(String name, Supplier<? extends BLOCK> blockSupplier,
                                                                                                                     BiFunction<BLOCK, Item.Properties, ITEM> itemCreator) {
-        return register(name, blockSupplier, block -> itemCreator.apply(block, ItemDeferredRegister.getModBaseProperties()));
+        return register(name, blockSupplier, block -> itemCreator.apply(block, AutomatedExpansion.getModBaseProperties()));
     }
 
     public <BLOCK extends Block, ITEM extends BlockItem> BlockRegistryObject<BLOCK, ITEM> register(String name, Supplier<? extends BLOCK> blockSupplier,

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "automatedexpansion:block/block_steel"
+      "model": "automatedexpansion:block/storage/block_steel"
     }
   }
 }

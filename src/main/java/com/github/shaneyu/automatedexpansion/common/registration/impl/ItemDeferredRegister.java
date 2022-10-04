@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-import com.github.shaneyu.automatedexpansion.common.ModCreativeTab;
+import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
 import com.github.shaneyu.automatedexpansion.common.providers.IItemProvider;
 import com.github.shaneyu.automatedexpansion.common.registration.WrappedDeferredRegister;
 import com.github.shaneyu.automatedexpansion.common.util.text.EnumColor;
@@ -20,16 +20,10 @@ import org.jetbrains.annotations.NotNull;
 
 public class ItemDeferredRegister extends WrappedDeferredRegister<Item> {
 
-    private static final ModCreativeTab tabAutomatedExpansion = new ModCreativeTab();
-
     private final List<IItemProvider> allItems = new ArrayList<>();
 
     public ItemDeferredRegister() {
         super(ForgeRegistries.ITEMS);
-    }
-
-    public static Item.Properties getModBaseProperties() {
-        return new Item.Properties().tab(tabAutomatedExpansion);
     }
 
     public ItemRegistryObject<Item> register(String name) {
@@ -55,11 +49,11 @@ public class ItemDeferredRegister extends WrappedDeferredRegister<Item> {
     }
 
     public <ITEM extends Item> ItemRegistryObject<ITEM> register(String name, Function<Item.Properties, ITEM> sup) {
-        return register(name, () -> sup.apply(getModBaseProperties()));
+        return register(name, () -> sup.apply(AutomatedExpansion.getModBaseProperties()));
     }
 
     public <ITEM extends Item> ItemRegistryObject<ITEM> registerUnburnable(String name, Function<Item.Properties, ITEM> sup) {
-        return register(name, () -> sup.apply(getModBaseProperties().fireResistant()));
+        return register(name, () -> sup.apply(AutomatedExpansion.getModBaseProperties().fireResistant()));
     }
 
     public <ITEM extends Item> ItemRegistryObject<ITEM> register(String name, Supplier<? extends ITEM> sup) {

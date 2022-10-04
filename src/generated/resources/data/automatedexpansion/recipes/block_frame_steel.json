@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "automatedexpansion:sheet_steel"
+    },
+    "M": {
+      "item": "automatedexpansion:block_frame_iron"
+    }
+  },
+  "pattern": [
+    "###",
+    "#M#",
+    "###"
+  ],
+  "result": {
+    "item": "automatedexpansion:block_frame_steel"
+  }
+}

@@ -6,6 +6,7 @@ import com.github.shaneyu.automatedexpansion.common.registries.ModTileEntityType
 import com.github.shaneyu.automatedexpansion.common.util.Version;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -20,6 +21,7 @@ import org.slf4j.Logger;
 public class AutomatedExpansion {
     public static final String MODID = "automatedexpansion";
     public static final String MOD_NAME = "Automated Expansion";
+    public static final ModCreativeTab MOD_TAB = new ModCreativeTab();
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public final Version versionNumber;
@@ -58,5 +60,9 @@ public class AutomatedExpansion {
 
     public static ResourceLocation rl(String path) {
         return new ResourceLocation(MODID, path);
+    }
+
+    public static Item.Properties getModBaseProperties() {
+        return new Item.Properties().tab(MOD_TAB);
     }
 }

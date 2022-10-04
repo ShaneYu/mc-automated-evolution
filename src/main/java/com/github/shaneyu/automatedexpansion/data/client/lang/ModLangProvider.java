@@ -51,6 +51,10 @@ public class ModLangProvider extends BaseLangProvider {
     private void addBlocks() {
         // Storage blocks
         add(ModBlocks.STEEL_BLOCK, "Block of Steel");
+
+        // Frames
+        add(ModBlocks.IRON_FRAME, "Iron Frame");
+        add(ModBlocks.STEEL_FRAME, "Steel Frame");
     }
 
     private void addMisc() {

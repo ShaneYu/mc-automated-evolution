@@ -20,8 +20,18 @@ public class ModBlocks {
     public static final BlockRegistryObject<BlockResource, ItemBlockBase> STEEL_BLOCK = registerResourceBlock("steel",
         BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3f, 3f));
 
+    public static final BlockRegistryObject<Block, ItemBlockBase> IRON_FRAME = registerFrameBlock("iron",
+        BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2f, 2f));
+
+    public static final BlockRegistryObject<Block, ItemBlockBase> STEEL_FRAME = registerFrameBlock("steel",
+        BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3f, 3f));
+
+    private static BlockRegistryObject<Block, ItemBlockBase> registerFrameBlock(String name, BlockBehaviour.Properties blockProperties) {
+        return BLOCKS.registerDefaultProperties("block_frame_" + name, () -> new Block(blockProperties), ItemBlockBase::new);
+    }
+
     private static BlockRegistryObject<BlockResource, ItemBlockBase> registerResourceBlock(String name, BlockBehaviour.Properties blockProperties) {
-        return BLOCKS.registerDefaultProperties("block_" + name, () -> new BlockResource(name, blockProperties), (block, properties) -> new ItemBlockBase(block, properties));
+        return BLOCKS.registerDefaultProperties("block_" + name, () -> new BlockResource(name, blockProperties), ItemBlockBase::new);
     }
 
     private static <BLOCK extends Block & IHasDescription> BlockRegistryObject<BLOCK, ItemBlockTooltip<BLOCK>> registerBlock(

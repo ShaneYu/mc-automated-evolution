@@ -1,8 +1,12 @@
 package com.github.shaneyu.automatedexpansion.common.registries;
 
+import com.github.shaneyu.automatedexpansion.common.item.ItemCraftingMultiUse;
 import com.github.shaneyu.automatedexpansion.common.registration.impl.ItemDeferredRegister;
 import com.github.shaneyu.automatedexpansion.common.registration.impl.ItemRegistryObject;
 import net.minecraft.world.item.Item;
+
+import java.util.function.Function;
+import java.util.function.Supplier;
 
 public class ModItems {
     private ModItems() {}
@@ -25,9 +29,11 @@ public class ModItems {
     public static final ItemRegistryObject<Item> CABLE_COPPER = registerCable("copper");
     public static final ItemRegistryObject<Item> CABLE_INSULATED_COPPER = registerCable("insulated_copper");
 
-    public static final ItemRegistryObject<Item> TOOL_HAMMER = registerTool("hammer");
-    public static final ItemRegistryObject<Item> TOOL_WRENCH = registerTool("wrench");
-    public static final ItemRegistryObject<Item> TOOL_WIRE_CUTTER = registerTool("wirecutter");
+    public static final ItemRegistryObject<ItemCraftingMultiUse> TOOL_HAMMER = registerTool("hammer", () -> new ItemCraftingMultiUse(20));
+
+    public static final ItemRegistryObject<Item> TOOL_WRENCH = registerTool("wrench", properties -> new Item(properties.setNoRepair().defaultDurability(0)));
+
+    public static final ItemRegistryObject<ItemCraftingMultiUse> TOOL_WIRE_CUTTER = registerTool("wirecutter", () -> new ItemCraftingMultiUse(20));
 
     private static ItemRegistryObject<Item> registerDust(String name) {
         return ITEMS.register("dust_" + name);
@@ -41,11 +47,15 @@ public class ModItems {
         return ITEMS.register("sheet_" + name);
     }
 
-    private static ItemRegistryObject<Item> registerTool(String name) {
-        return ITEMS.register("tool_" + name);
-    }
-
     private static ItemRegistryObject<Item> registerCable(String name) {
         return ITEMS.register("cable_" + name);
+    }
+
+    private static <ITEM extends Item> ItemRegistryObject<ITEM> registerTool(String name, Supplier<ITEM> supplier) {
+        return ITEMS.register("tool_" + name, supplier);
+    }
+
+    private static <ITEM extends Item> ItemRegistryObject<ITEM> registerTool(String name, Function<Item.Properties, ITEM> supplier) {
+        return ITEMS.register("tool_" + name, supplier);
     }
 }

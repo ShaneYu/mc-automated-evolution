@@ -37,6 +37,11 @@ public class ModTags {
         public static final TagKey<Item> SHEETS_STEEL = forgeTag("sheets/steel");
 
 
+        public static final TagKey<Item> FRAMES = forgeTag("frames");
+        public static final TagKey<Item> FRAMES_IRON = forgeTag("frames/iron");
+        public static final TagKey<Item> FRAMES_STEEL = forgeTag("frames/steel");
+
+
         public static final TagKey<Item> CABLES = tag("cables");
         public static final TagKey<Item> CABLES_COPPER = tag("cables/copper");
 
@@ -64,6 +69,10 @@ public class ModTags {
         private static void init() {}
 
         private Blocks() {}
+
+        public static final TagKey<Block> FRAMES = forgeTag("frames");
+        public static final TagKey<Block> FRAMES_IRON = forgeTag("frames/iron");
+        public static final TagKey<Block> FRAMES_STEEL = forgeTag("frames/steel");
 
         public static final TagKey<Block> STORAGE_BLOCKS_STEEL = forgeTag("storage_blocks/steel");
 

@@ -1,2 +1,4 @@
-// 1.19.2	2022-10-02T01:29:56.6658061	LootTables
+// 1.19.2	2022-10-04T19:25:49.5348831	LootTables
+fad6e8d7f1103075a63b7e57c2dedc7a1da264d7 data/automatedexpansion/loot_tables/blocks/block_frame_iron.json
+b04173dabed6f6cb81fd06967853139eee8d3bf7 data/automatedexpansion/loot_tables/blocks/block_frame_steel.json
 3d0974541e78329cf2f7ea3666321e6a9b511987 data/automatedexpansion/loot_tables/blocks/block_steel.json

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "H": {
+      "item": "automatedexpansion:tool_hammer"
+    },
+    "I": {
+      "item": "automatedexpansion:ingot_steel"
+    }
+  },
+  "pattern": [
+    "H",
+    "I"
+  ],
+  "result": {
+    "item": "automatedexpansion:sheet_steel"
+  }
+}

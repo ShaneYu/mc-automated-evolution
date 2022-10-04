@@ -1,5 +1,6 @@
 package com.github.shaneyu.automatedexpansion.common;
 
+import com.github.shaneyu.automatedexpansion.common.registries.ModItems;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -12,7 +13,7 @@ public class ModCreativeTab extends CreativeModeTab {
 
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(Items.DIAMOND);
+        return new ItemStack(ModItems.TOOL_WIRE_CUTTER);
     }
 
     @Override

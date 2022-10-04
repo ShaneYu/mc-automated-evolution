@@ -1,5 +1,6 @@
 package com.github.shaneyu.automatedexpansion.common.item.block;
 
+import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
 import com.github.shaneyu.automatedexpansion.common.block.IHasDescription;
 import com.github.shaneyu.automatedexpansion.common.registration.impl.ItemDeferredRegister;
 import net.minecraft.world.level.block.Block;
@@ -12,7 +13,7 @@ public class ItemBlockTooltip<BLOCK extends Block & IHasDescription> extends Ite
     }
 
     public ItemBlockTooltip(BLOCK block) {
-        this(block, true, ItemDeferredRegister.getModBaseProperties().stacksTo(1));
+        this(block, true, AutomatedExpansion.getModBaseProperties().stacksTo(1));
     }
 
     protected ItemBlockTooltip(BLOCK block, boolean hasDetails, Properties properties) {

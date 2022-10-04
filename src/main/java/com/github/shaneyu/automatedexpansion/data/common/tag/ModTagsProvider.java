@@ -33,6 +33,7 @@ public class ModTagsProvider extends BaseTagProvider {
         addIngots();
         addDusts();
         addSheets();
+        addFrames();
         addCables();
         addCablesInsulated();
         addGems();
@@ -95,6 +96,21 @@ public class ModTagsProvider extends BaseTagProvider {
         );
     }
 
+    private void addFrames() {
+        addToTags(ModTags.Items.FRAMES_IRON, ModTags.Blocks.FRAMES_IRON, ModBlocks.IRON_FRAME);
+        addToTags(ModTags.Items.FRAMES_STEEL, ModTags.Blocks.FRAMES_STEEL, ModBlocks.STEEL_FRAME);
+
+        getItemBuilder(ModTags.Items.FRAMES).add(
+            ModTags.Items.FRAMES_IRON,
+            ModTags.Items.FRAMES_STEEL
+        );
+
+        getBlockBuilder(ModTags.Blocks.FRAMES).add(
+            ModTags.Blocks.FRAMES_IRON,
+            ModTags.Blocks.FRAMES_STEEL
+        );
+    }
+
     private void addCables() {
         addToTag(ModTags.Items.CABLES_COPPER, ModItems.CABLE_COPPER);
 
@@ -122,7 +138,9 @@ public class ModTagsProvider extends BaseTagProvider {
 
     private void addHarvestRequirements() {
         addHarvestWithIronPickaxe(
-            ModBlocks.STEEL_BLOCK
+            ModBlocks.STEEL_BLOCK,
+            ModBlocks.IRON_FRAME,
+            ModBlocks.STEEL_FRAME
         );
     }
 

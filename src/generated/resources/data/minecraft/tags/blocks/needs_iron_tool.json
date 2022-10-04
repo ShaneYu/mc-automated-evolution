@@ -1,5 +1,7 @@
 {
   "values": [
-    "automatedexpansion:block_steel"
+    "automatedexpansion:block_steel",
+    "automatedexpansion:block_frame_iron",
+    "automatedexpansion:block_frame_steel"
   ]
 }

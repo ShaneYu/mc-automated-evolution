@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "automatedexpansion:tool_wirecutter"
+    },
+    {
+      "item": "automatedexpansion:sheet_copper"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "automatedexpansion:cable_copper"
+  }
+}
