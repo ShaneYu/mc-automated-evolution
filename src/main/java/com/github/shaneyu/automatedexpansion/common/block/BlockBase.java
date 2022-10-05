@@ -1,5 +1,6 @@
 package com.github.shaneyu.automatedexpansion.common.block;
 
+import com.github.shaneyu.automatedexpansion.common.lib.block.IHasTileEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;

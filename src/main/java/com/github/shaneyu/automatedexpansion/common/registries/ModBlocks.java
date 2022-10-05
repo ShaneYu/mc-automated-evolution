@@ -1,11 +1,11 @@
 package com.github.shaneyu.automatedexpansion.common.registries;
 
 import com.github.shaneyu.automatedexpansion.common.block.BlockResource;
-import com.github.shaneyu.automatedexpansion.common.block.IHasDescription;
+import com.github.shaneyu.automatedexpansion.common.lib.block.IHasDescription;
 import com.github.shaneyu.automatedexpansion.common.item.block.ItemBlockBase;
 import com.github.shaneyu.automatedexpansion.common.item.block.ItemBlockTooltip;
-import com.github.shaneyu.automatedexpansion.common.registration.impl.BlockDeferredRegister;
-import com.github.shaneyu.automatedexpansion.common.registration.impl.BlockRegistryObject;
+import com.github.shaneyu.automatedexpansion.common.lib.registration.impl.BlockDeferredRegister;
+import com.github.shaneyu.automatedexpansion.common.lib.registration.impl.BlockRegistryObject;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;

@@ -1,6 +1,6 @@
 package com.github.shaneyu.automatedexpansion.data.client.model;
 import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
-import com.github.shaneyu.automatedexpansion.common.providers.IItemProvider;
+import com.github.shaneyu.automatedexpansion.common.lib.providers.IItemProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.PackType;

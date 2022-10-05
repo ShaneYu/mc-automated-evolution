@@ -1,7 +1,7 @@
 package com.github.shaneyu.automatedexpansion.common;
 
-import com.github.shaneyu.automatedexpansion.common.util.annotations.NothingNullByDefault;
-import com.github.shaneyu.automatedexpansion.common.util.text.ILangEntry;
+import com.github.shaneyu.automatedexpansion.common.lib.annotations.NothingNullByDefault;
+import com.github.shaneyu.automatedexpansion.common.lib.text.ILangEntry;
 import net.minecraft.Util;
 
 @NothingNullByDefault

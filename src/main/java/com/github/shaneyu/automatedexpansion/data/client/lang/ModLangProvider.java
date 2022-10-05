@@ -5,7 +5,7 @@ import com.github.shaneyu.automatedexpansion.common.ModLang;
 import com.github.shaneyu.automatedexpansion.common.registries.ModBlocks;
 import com.github.shaneyu.automatedexpansion.common.registries.ModItems;
 import com.github.shaneyu.automatedexpansion.common.util.EnumUtils;
-import com.github.shaneyu.automatedexpansion.common.util.text.EnumColor;
+import com.github.shaneyu.automatedexpansion.common.lib.EnumColor;
 import net.minecraft.data.DataGenerator;
 
 public class ModLangProvider extends BaseLangProvider {

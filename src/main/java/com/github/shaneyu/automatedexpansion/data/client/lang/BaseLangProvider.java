@@ -1,7 +1,7 @@
 package com.github.shaneyu.automatedexpansion.data.client.lang;
 
 import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
-import com.github.shaneyu.automatedexpansion.common.util.text.IHasTranslationKey;
+import com.github.shaneyu.automatedexpansion.common.lib.text.IHasTranslationKey;
 import com.github.shaneyu.automatedexpansion.data.client.lang.FormatSplitter.Component;
 import net.minecraft.data.CachedOutput;
 import net.minecraft.data.DataGenerator;

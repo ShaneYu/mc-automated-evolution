@@ -1,8 +1,7 @@
 package com.github.shaneyu.automatedexpansion.common.item.block;
 
 import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
-import com.github.shaneyu.automatedexpansion.common.block.IHasDescription;
-import com.github.shaneyu.automatedexpansion.common.registration.impl.ItemDeferredRegister;
+import com.github.shaneyu.automatedexpansion.common.lib.block.IHasDescription;
 import net.minecraft.world.level.block.Block;
 
 public class ItemBlockTooltip<BLOCK extends Block & IHasDescription> extends ItemBlockBase<BLOCK> {

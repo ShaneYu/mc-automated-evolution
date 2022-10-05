@@ -1,8 +1,8 @@
 package com.github.shaneyu.automatedexpansion.common.registries;
 
 import com.github.shaneyu.automatedexpansion.common.item.ItemCraftingMultiUse;
-import com.github.shaneyu.automatedexpansion.common.registration.impl.ItemDeferredRegister;
-import com.github.shaneyu.automatedexpansion.common.registration.impl.ItemRegistryObject;
+import com.github.shaneyu.automatedexpansion.common.lib.registration.impl.ItemDeferredRegister;
+import com.github.shaneyu.automatedexpansion.common.lib.registration.impl.ItemRegistryObject;
 import net.minecraft.world.item.Item;
 
 import java.util.function.Function;

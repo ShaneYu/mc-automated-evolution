@@ -1,6 +1,6 @@
 package com.github.shaneyu.automatedexpansion.data.common.tag;
 
-import com.github.shaneyu.automatedexpansion.common.providers.IBlockProvider;
+import com.github.shaneyu.automatedexpansion.common.lib.providers.IBlockProvider;
 import it.unimi.dsi.fastutil.objects.Object2ObjectLinkedOpenHashMap;
 import net.minecraft.data.CachedOutput;
 import net.minecraft.data.DataGenerator;

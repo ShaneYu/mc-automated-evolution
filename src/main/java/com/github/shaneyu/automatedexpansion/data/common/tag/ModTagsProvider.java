@@ -1,10 +1,10 @@
 package com.github.shaneyu.automatedexpansion.data.common.tag;
 
 import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
-import com.github.shaneyu.automatedexpansion.common.providers.IBlockProvider;
+import com.github.shaneyu.automatedexpansion.common.lib.providers.IBlockProvider;
 import com.github.shaneyu.automatedexpansion.common.registries.ModBlocks;
 import com.github.shaneyu.automatedexpansion.common.registries.ModItems;
-import com.github.shaneyu.automatedexpansion.common.ModTags;
+import com.github.shaneyu.automatedexpansion.common.tags.ModTags;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;

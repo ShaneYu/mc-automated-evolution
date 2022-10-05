@@ -1,6 +1,6 @@
 package com.github.shaneyu.automatedexpansion.common.registries;
 
-import com.github.shaneyu.automatedexpansion.common.registration.impl.TileEntityTypeDeferredRegister;
+import com.github.shaneyu.automatedexpansion.common.lib.registration.impl.TileEntityTypeDeferredRegister;
 
 public class ModTileEntityTypes {
     private ModTileEntityTypes() {}

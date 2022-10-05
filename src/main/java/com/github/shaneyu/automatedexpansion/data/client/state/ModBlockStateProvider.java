@@ -2,7 +2,7 @@ package com.github.shaneyu.automatedexpansion.data.client.state;
 
 import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
 import com.github.shaneyu.automatedexpansion.common.block.BlockResource;
-import com.github.shaneyu.automatedexpansion.common.registration.impl.BlockRegistryObject;
+import com.github.shaneyu.automatedexpansion.common.lib.registration.impl.BlockRegistryObject;
 import com.github.shaneyu.automatedexpansion.common.registries.ModBlocks;
 import com.github.shaneyu.automatedexpansion.data.client.model.ModBlockModelProvider;
 import net.minecraft.data.DataGenerator;

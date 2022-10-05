@@ -1,6 +1,7 @@
 package com.github.shaneyu.automatedexpansion.common.util;
 
-import com.github.shaneyu.automatedexpansion.common.util.text.EnumColor;
+import com.github.shaneyu.automatedexpansion.common.lib.RelativeSide;
+import com.github.shaneyu.automatedexpansion.common.lib.EnumColor;
 import net.minecraft.core.Direction;
 import net.minecraft.world.entity.EquipmentSlot;
 

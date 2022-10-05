@@ -1,9 +1,9 @@
 package com.github.shaneyu.automatedexpansion.data.common.recipe.impl;
 
 import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
-import com.github.shaneyu.automatedexpansion.common.ModTags;
+import com.github.shaneyu.automatedexpansion.common.tags.ModTags;
 import com.github.shaneyu.automatedexpansion.common.block.BlockResource;
-import com.github.shaneyu.automatedexpansion.common.registration.impl.BlockRegistryObject;
+import com.github.shaneyu.automatedexpansion.common.lib.registration.impl.BlockRegistryObject;
 import com.github.shaneyu.automatedexpansion.common.registries.ModBlocks;
 import com.github.shaneyu.automatedexpansion.data.common.recipe.ISubRecipeProvider;
 import com.github.shaneyu.automatedexpansion.data.common.recipe.ModRecipeProvider;

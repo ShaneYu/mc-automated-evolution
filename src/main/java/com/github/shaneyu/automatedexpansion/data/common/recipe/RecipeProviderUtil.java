@@ -1,6 +1,6 @@
 package com.github.shaneyu.automatedexpansion.data.common.recipe;
 
-import com.github.shaneyu.automatedexpansion.common.util.annotations.NothingNullByDefault;
+import com.github.shaneyu.automatedexpansion.common.lib.annotations.NothingNullByDefault;
 import com.github.shaneyu.automatedexpansion.data.common.recipe.builder.impl.ExtendedCookingRecipeBuilder;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.resources.ResourceLocation;

@@ -1,7 +1,7 @@
 package com.github.shaneyu.automatedexpansion.data.client.state;
 
 import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
-import com.github.shaneyu.automatedexpansion.common.providers.IBlockProvider;
+import com.github.shaneyu.automatedexpansion.common.lib.providers.IBlockProvider;
 import com.github.shaneyu.automatedexpansion.data.client.model.BaseBlockModelProvider;
 import net.minecraft.core.Direction;
 import net.minecraft.data.DataGenerator;

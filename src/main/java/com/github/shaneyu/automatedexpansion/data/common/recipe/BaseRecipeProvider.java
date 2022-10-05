@@ -1,7 +1,7 @@
 package com.github.shaneyu.automatedexpansion.data.common.recipe;
 
 import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
-import com.github.shaneyu.automatedexpansion.common.util.annotations.NothingNullByDefault;
+import com.github.shaneyu.automatedexpansion.common.lib.annotations.NothingNullByDefault;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;

@@ -1,8 +1,8 @@
 package com.github.shaneyu.automatedexpansion.data.common.recipe.builder;
 
 import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
-import com.github.shaneyu.automatedexpansion.common.util.JsonConstants;
-import com.github.shaneyu.automatedexpansion.common.util.annotations.NothingNullByDefault;
+import com.github.shaneyu.automatedexpansion.common.lib.JsonConstants;
+import com.github.shaneyu.automatedexpansion.common.lib.annotations.NothingNullByDefault;
 import com.github.shaneyu.automatedexpansion.data.common.recipe.RecipeCriterion;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;

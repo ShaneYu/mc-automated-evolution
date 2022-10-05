@@ -1,7 +1,7 @@
 package com.github.shaneyu.automatedexpansion.common.item;
 
 import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
-import com.github.shaneyu.automatedexpansion.common.util.annotations.NothingNullByDefault;
+import com.github.shaneyu.automatedexpansion.common.lib.annotations.NothingNullByDefault;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Vanishable;

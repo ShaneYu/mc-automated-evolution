@@ -1,9 +1,9 @@
 package com.github.shaneyu.automatedexpansion.data.common.recipe;
 
-import com.github.shaneyu.automatedexpansion.common.providers.IItemProvider;
+import com.github.shaneyu.automatedexpansion.common.lib.providers.IItemProvider;
 import com.github.shaneyu.automatedexpansion.common.registries.ModBlocks;
 import com.github.shaneyu.automatedexpansion.common.registries.ModItems;
-import com.github.shaneyu.automatedexpansion.common.util.annotations.NothingNullByDefault;
+import com.github.shaneyu.automatedexpansion.common.lib.annotations.NothingNullByDefault;
 import com.github.shaneyu.automatedexpansion.data.common.recipe.builder.impl.ExtendedShapedRecipeBuilder;
 import com.github.shaneyu.automatedexpansion.data.common.recipe.builder.impl.ExtendedShapelessRecipeBuilder;
 import com.github.shaneyu.automatedexpansion.data.common.recipe.impl.BasicResourceProcessingRecipeProvider;

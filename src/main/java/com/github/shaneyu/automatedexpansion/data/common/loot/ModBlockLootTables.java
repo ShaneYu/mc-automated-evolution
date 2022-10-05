@@ -1,6 +1,6 @@
 package com.github.shaneyu.automatedexpansion.data.common.loot;
 
-import com.github.shaneyu.automatedexpansion.common.providers.IBlockProvider;
+import com.github.shaneyu.automatedexpansion.common.lib.providers.IBlockProvider;
 import com.github.shaneyu.automatedexpansion.common.registries.ModBlocks;
 import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
 import net.minecraft.data.loot.BlockLoot;

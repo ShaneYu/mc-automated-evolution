@@ -1,6 +1,6 @@
 package com.github.shaneyu.automatedexpansion.common.registries;
 
-import com.github.shaneyu.automatedexpansion.common.registration.impl.RecipeSerializerDeferredRegister;
+import com.github.shaneyu.automatedexpansion.common.lib.registration.impl.RecipeSerializerDeferredRegister;
 
 public class ModRecipeSerializers {
     private ModRecipeSerializers() {}

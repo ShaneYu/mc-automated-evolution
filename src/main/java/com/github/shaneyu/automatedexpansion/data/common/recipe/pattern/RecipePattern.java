@@ -1,6 +1,6 @@
 package com.github.shaneyu.automatedexpansion.data.common.recipe.pattern;
 
-import com.github.shaneyu.automatedexpansion.common.util.annotations.NothingNullByDefault;
+import com.github.shaneyu.automatedexpansion.common.lib.annotations.NothingNullByDefault;
 import org.jetbrains.annotations.Nullable;
 
 @NothingNullByDefault

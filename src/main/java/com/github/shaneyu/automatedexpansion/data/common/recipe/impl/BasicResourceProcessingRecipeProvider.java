@@ -1,7 +1,7 @@
 package com.github.shaneyu.automatedexpansion.data.common.recipe.impl;
 
 import com.github.shaneyu.automatedexpansion.common.AutomatedExpansion;
-import com.github.shaneyu.automatedexpansion.common.ModTags;
+import com.github.shaneyu.automatedexpansion.common.tags.ModTags;
 import com.github.shaneyu.automatedexpansion.common.registries.ModItems;
 import com.github.shaneyu.automatedexpansion.data.common.recipe.ISubRecipeProvider;
 import com.github.shaneyu.automatedexpansion.data.common.recipe.RecipeProviderUtil;
